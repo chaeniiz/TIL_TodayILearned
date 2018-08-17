@@ -164,7 +164,7 @@ NavigationUI.setupWithNavController(nav_bottom, navController)
 
 
 
-Navigate to Activity
+## Navigate to Activity
 
 1. 새로운 navigation_graph.xml를 만들어 연동
 
@@ -210,4 +210,21 @@ Navigate to Activity
 val navController = findNavController(R.id.nav_host)
 NavigationUI.setupActionBarWithNavController(this, navController)
 ```
+
+
+## 발표 후 논의점
+
+- 뷰페이저로는 사용이 불가능할까?
+  - ios처럼 바텀 네비게이션 바 기반으로, 뷰페이저 없이 화면 전환에 용이하게 만든 것이 아닐까?
+- 프래그먼트간이 아닌 액티비티간 이동도 용이할까?
+  - 가능
+- argument 전달도 가능할까?
+  - 가능
+
+
+
+## 참고 링크
+
+https://www.youtube.com/watch?v=8GCXtCjtg40
+https://developer.android.com/topic/libraries/architecture/navigation/navigation-implementing
 
